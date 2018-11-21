@@ -137,7 +137,7 @@ namespace Singleton
             var rf = new SingletonRecordFinder();
             var names = new[] {"Seoul", "New York"};
             int tp = rf.GetTotalPopulation(names);
-            Assert.That(tp,Is.EqualTo(17800000+ 17500000));
+            Assert.That(tp,Is.EqualTo(17800000 + 17500000));
         }
 
         [Test]
